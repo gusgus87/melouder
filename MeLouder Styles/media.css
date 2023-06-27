@@ -50,9 +50,10 @@
 
   @media only screen and (max-width: 699px){    
     .left-section{
-      background: red;
-      display: inline-block;
-      margin-left: 0;
+      background: blue;
+      max-width: 104px;
+      padding-left: 4px;
+      padding:right: 4px;
       order:-2;
     }
     .logo{
