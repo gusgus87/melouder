@@ -85,6 +85,9 @@
       cursor: pointer;
       float: right;
     }
+    nav#site-navigation.in{
+      height: auto !important;
+    }
     ul{
       display: block;
       position:fixed;
