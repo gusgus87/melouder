@@ -71,7 +71,7 @@ ul li a:hover{
   height: 64px;
 }
 .bars{
-  max-height: 64px;
+  max-height: 48px;
 }
 #check{
   display: none;
