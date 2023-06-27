@@ -51,6 +51,7 @@
   @media only screen and (max-width: 699px){    
     .left-section{
       background: blue;
+      max-width: 128px;
       margin-left: 0;
       order:-2;
     }
