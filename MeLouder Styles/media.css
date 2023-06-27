@@ -54,6 +54,8 @@
   
 
   @media only screen and (max-width: 699px){
+    .checkbtn{ display:flex;}
+    
     .left-section{
       margin-left: 0;
       order:-1;
@@ -84,9 +86,6 @@
       display: flex;
       cursor: pointer;
       float: right;
-    }
-    nav#site-navigation.in{
-      height: auto !important;
     }
     ul{
       display: block;
