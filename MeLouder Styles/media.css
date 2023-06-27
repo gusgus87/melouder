@@ -48,10 +48,10 @@
 }
   
 
-  @media (max-width: 699px){    
+  @media only screen and (max-width: 699px){    
     .left-section{
       margin-left: 0;
-      order:-1;
+      order:-2;
     }
     .logo{
       margin-left: 0;
@@ -61,6 +61,7 @@
       max-height: none;
     }
     .middle-section{
+      order: 0;
       margin-left: 0;
       margin-right: 0;
       flex: 0;
