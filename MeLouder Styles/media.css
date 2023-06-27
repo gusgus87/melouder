@@ -75,6 +75,7 @@
       height: 56px;
     }
     .right-section{
+      flex: 1;
       order: -1;
     }
     .checkbtn{
