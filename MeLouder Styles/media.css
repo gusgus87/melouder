@@ -1,4 +1,9 @@
 @media only screen and (min-width: 700px) and (max-width: 991px){
+  .left-section{
+      max-width: 104px;
+      padding-left: 4px;
+      padding-right: 4px;
+    }
   ul li{
     padding: 0px 6px;
   }
@@ -52,7 +57,7 @@
     .left-section{
       max-width: 104px;
       padding-left: 4px;
-      padding:right: 4px;
+      padding-right: 4px;
       order:-2;
     }
     .logo{
@@ -112,6 +117,10 @@
     }
     .introducing{
       font-size: 31.5px;
+    }
+    .email{
+      white-space: nowrap;
+      font-size: 21px;
     }
     .quality{
       font-size: 31.5px;
