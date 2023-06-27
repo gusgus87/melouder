@@ -77,7 +77,6 @@
       height: 56px;
     }
     .right-section{
-      display: none;
       order: -1;
     }
     .checkbtn{
@@ -110,7 +109,6 @@
       top: 128px;
       background-image: linear-gradient(#4D13BF,#0A32CC) ;
     }
-
     .introducing{
       font-size: 31.5px;
     }
@@ -121,7 +119,6 @@
     .coming-soon{
       font-size: 59px;
     }
-
     .about{
       margin-top: 32px;
       font-weight: normal;
