@@ -80,10 +80,8 @@
       order: -1;
     }
     .checkbtn{
-      order: 6;
       display: flex;
       cursor: pointer;
-      float: right;
     }
     ul{
       display: block;
