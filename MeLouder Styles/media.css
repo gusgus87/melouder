@@ -119,7 +119,7 @@
       font-size: 31.5px;
     }
     .email{
-      white-space: nowrap;
+      line-break: strict;
       font-size: 21px;
     }
     .quality{
