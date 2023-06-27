@@ -50,7 +50,6 @@
 
   @media only screen and (max-width: 699px){    
     .left-section{
-      background: blue;
       max-width: 104px;
       padding-left: 4px;
       padding:right: 4px;
@@ -62,6 +61,9 @@
       height: 130%;
       cursor: pointer;
       max-height: none;
+    }
+    .logo:hover{
+      height: 135%;
     }
     .middle-section{
       order: 0;
