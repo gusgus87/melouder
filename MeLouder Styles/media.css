@@ -1,0 +1,131 @@
+@media only screen and (min-width: 700px){
+  #check{ display: none; }
+  .checkbtn{ display: none; }
+  }
+
+@media only screen and (min-width: 700px) and (max-width: 991px){
+  ul li{
+    padding: 0px 6px;
+  }
+  li,a{
+    transition: all 0.3s ease-in-out 0s;
+    font-family: 'Rubik', sans-serif; 
+    font-size: 16px;
+    font-weight: bold;
+    color: #05010D;
+    text-decoration: none;
+  }
+  ul li a:hover{
+    color: #4D13BF;
+    font-size: 17px;
+    text-shadow: 4px 4px 3px rgba(5,1,13, 0.15);
+  }
+  .logo{
+      transition: all 0.3s ease-in-out 0s;
+      height: 130%;
+      cursor: pointer;
+      max-height: none;
+  }
+  .logo:hover{
+    height: 140%;
+  }
+  .icon-links{
+    height: 48px;
+  }
+  .icon-links:hover{
+    height: 56px;
+  }
+  .introducing{
+    font-size: 31.5px;
+  }
+  .quality{
+    font-size: 31.5px;
+    font-weight: 700; 
+  }
+  .coming-soon{
+    font-size: 59px;
+  }
+  .about{
+    margin-top: 32px;
+    font-weight: normal;
+    font-size: 21px;
+  }
+}
+  
+
+  @media only screen and (max-width: 699px){
+    .left-section{
+      margin-left: 0;
+      order:-1;
+    }
+    .logo{
+      margin-left: 0;
+      transition: all 0.3s ease 0s;
+      height: 130%;
+      cursor: pointer;
+      max-height: none;
+    }
+    .middle-section{
+      margin-left: 0;
+      margin-right: 0;
+      flex: 0;
+    }
+    .icon-links{
+      height: 48px;
+    }
+    .icon-links:hover{
+      height: 56px;
+    }
+    .right-section{
+      order: -1;
+    }
+    .checkbtn{
+      order: 6;
+      display: flex;
+      cursor: pointer;
+      float: right;
+    }
+    ul{
+      display: block;
+      position:fixed;
+      width:100%;
+      height: 100vh;
+      top: 1000px;
+      left: 0;
+      text-align: center;
+      background: rgba(10,50,204,.2);
+      transition: all .6s;
+    }
+    nav ul li{
+      margin: 64px 0;
+    }
+    nav ul li a{
+      font-size: 21px;
+      color: white;
+    }
+    nav ul li a:hover{
+      color: white;
+      text-shadow: 6px 6px 4px rgba(5,1,13, 0.15);
+    }
+    #check:checked ~ ul{
+      top: 128px;
+      background-image: linear-gradient(#4D13BF,#0A32CC) ;
+    }
+
+    .introducing{
+      font-size: 31.5px;
+    }
+    .quality{
+      font-size: 31.5px;
+      font-weight: 700; 
+    }
+    .coming-soon{
+      font-size: 59px;
+    }
+
+    .about{
+      margin-top: 32px;
+      font-weight: normal;
+      font-size: 21px;
+    }
+  }
