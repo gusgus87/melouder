@@ -137,8 +137,14 @@
       font-weight: normal;
       font-size: 21px;
     }
+    .request-button{
+      font-size: 15px;
+    }
+    .request-button:hover{
+      font-size: 16px;
+    }
     .box-pic{
-      max-height: 640px;
+      max-height: 512px;
     }
   }
 @media only screen and (min-width: 700px){
