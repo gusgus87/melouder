@@ -71,3 +71,10 @@ body{
   font-weight: normal;
   font-size: 26.25px;
 }
+.box{
+  display: flex;
+  justify-content: center;
+}
+.box-pic{
+  max-height: 1024px;
+}
