@@ -144,7 +144,7 @@
       font-size: 16px;
     }
     .box-pic{
-      max-height: 480px;
+      max-width: 100%;
     }
   }
 @media only screen and (min-width: 700px){
