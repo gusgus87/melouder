@@ -66,12 +66,12 @@
     .logo{
       margin-left: 0;
       transition: all 0.3s ease 0s;
-      height: 130%;
+      height: 120%;
       cursor: pointer;
       max-height: none;
     }
     .logo:hover{
-      height: 135%;
+      height: 125%;
     }
     .middle-section{
       order: 0;
